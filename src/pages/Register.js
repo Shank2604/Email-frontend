@@ -13,7 +13,7 @@ function Register() {
     setSuccessMsg("");
     setErrorMsg("");
     try {
-      await axios.post("http://localhost:5000/api/auth/register", {
+      await axios.post("https://email-frontend-lyart.vercel.app/register", {
         email,
         password,
       });
